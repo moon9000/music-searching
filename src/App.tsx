@@ -1,7 +1,9 @@
 import * as React from "react";
 import "./App.css";
-import { useGetArtistByNameQuery } from "./features/music-fetching/musicFetchingSlice";
-import { useGetArtistByMbidQuery } from "./features/music-fetching/musicFetchingSlice";
+import {
+  useGetArtistByNameQuery,
+  useGetArtistByMbidQuery,
+} from "./features/music-fetching/musicFetchingSlice";
 import TextField from "@mui/material/TextField";
 import {
   Card,
