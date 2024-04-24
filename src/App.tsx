@@ -53,7 +53,6 @@ function App() {
 
   return (
     <Box>
-      <AppBar />
       <Wrapper>
         <Stack sx={{ paddingTop: 10 }} spacing={10}>
           <Stack
