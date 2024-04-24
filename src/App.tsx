@@ -103,7 +103,7 @@ function App() {
                 <Card>
                   <CardHeader title="Tags" />
                   <CardContent>
-                    <Stack spacing={1} direction="row">
+                    <Stack spacing={1} direction="column">
                       {data.artist.tags.tag.map((tag) => {
                         return <Chip key={tag.name} label={tag.name} />;
                       })}
@@ -117,7 +117,7 @@ function App() {
                 <Card>
                   <CardHeader title="Similar artists" />
                   <CardContent>
-                    <Stack spacing={1} direction="row">
+                    <Stack spacing={1} direction="column">
                       {data.artist.similar.artist.map((artist) => {
                         return (
                           <Chip
